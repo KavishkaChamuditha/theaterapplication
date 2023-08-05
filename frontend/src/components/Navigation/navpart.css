@@ -1,0 +1,51 @@
+.backgroundclr {
+    margin-top: 20px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    background: rgba(0, 0, 0, 0.81);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5.4px) !important;
+    -webkit-backdrop-filter: blur(6.4px);
+    height: 70px !important;
+    width: 1200px !important;
+}
+
+.navname{
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    color: #ffffff;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+.navlinks{
+    color: #FF9800 !important;
+    font-size: 18px;
+    margin-left: 20px;
+}
+
+.navlinkslast{
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+.navlinksmrgn{
+    margin-left: 230px;
+}
+
+.giveawys{
+    margin-top: 2px;
+    height: 50px;
+    background: none !important;
+    border-color: #FF9800 !important;
+}
+
+.tickets{
+    margin-top: 2px;
+    height: 45px;
+    margin-left: 20px;
+    background-color: #FF9800;
+    border: none !important;
+    border-color: none !important;
+}

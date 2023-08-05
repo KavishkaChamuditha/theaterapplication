@@ -1,21 +1,24 @@
 import React from 'react'
-import {Navbar, Container, Nav} from 'react-bootstrap'
+import {Navbar, Container, Nav, Button} from 'react-bootstrap'
 import 'bootstrap/dist/css/bootstrap.min.css';
+import './navpart.css'
 
 function Navpart() {
   return (
     <div>
-        <Navbar bg="dark" data-bs-theme="dark">
+        <Navbar className='backgroundclr'>
         <Container>
-          <Navbar.Brand href="#home">KCC Multiplex</Navbar.Brand>
-          <Nav className="me-auto">
-            <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#features">Giveaways</Nav.Link>
-            <Nav.Link href="#pricing">Buy Tickets</Nav.Link>
-            <Nav.Link href="#pricing">Movies</Nav.Link>
-            <Nav.Link href="#pricing">Cinemas</Nav.Link>
-            <Nav.Link href="#pricing">Contact Us</Nav.Link>
+        
+          <Navbar.Brand href="#home" className='text-light navname'>KCC Multiplex</Navbar.Brand>
+          <Nav className="me-auto navlinksmrgn">
+            <Nav.Link href="#home" className='text-light navlinks'>Home</Nav.Link>
+            <Button className='navlinks giveawys'>Giveaways</Button>
+            <Button className='text-dark tickets'>Buy Tickets</Button>
+            <Nav.Link href="#pricing" className='text-light navlinkslast'>Movies</Nav.Link>
+            <Nav.Link href="#pricing" className='text-light navlinkslast'>Cinemas</Nav.Link>
+            <Nav.Link href="#pricing" className='text-light navlinkslast'>Contact Us</Nav.Link>
           </Nav>
+        
         </Container>
       </Navbar>
       <br />
