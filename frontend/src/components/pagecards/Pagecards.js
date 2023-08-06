@@ -71,8 +71,8 @@ function Pagecards() {
         </div>
       </div>
     </div>
-
-    <h1 className='text-light'>Coming Soon</h1>
+ 
+    <h1 className='text-light' style={{ marginTop: '50px' }}>Coming Soon</h1>
 
     <div className="container">
       <div className="row">
