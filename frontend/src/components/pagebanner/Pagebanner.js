@@ -3,6 +3,7 @@ import Navpart from '../Navigation/Navpart'
 import './pagebanner.css'
 import Carousel from 'react-bootstrap/Carousel'
 import { Button } from 'react-bootstrap'
+import Pagecards from '../pagecards/Pagecards'
 
 function Pagebanner() {
   return (
@@ -71,6 +72,9 @@ function Pagebanner() {
     </Carousel.Caption>
   </Carousel.Item>
 </Carousel>
+
+<Pagecards/>
+
  </div>
 
   )

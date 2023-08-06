@@ -61,9 +61,9 @@ body {
 
 .ticketarea{
     width: 1000px;
+    position: absolute;
     background-color: aliceblue;
     height: 80px;
-    position: fixed;
     margin-left: 20px;
     margin-top: -130px;
     /* From https://css.glass */
