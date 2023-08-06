@@ -6,9 +6,8 @@ import './navpart.css'
 function Navpart() {
   return (
     <div>
-        <Navbar className='backgroundclr'>
-        <Container>
-        
+       <Container>
+        <Navbar className='backgroundclr navbar '>
           <Navbar.Brand href="#home" className='text-light navname'>KCC Multiplex</Navbar.Brand>
           <Nav className="me-auto navlinksmrgn">
             <Nav.Link href="#home" className='text-light navlinks'>Home</Nav.Link>
@@ -18,10 +17,8 @@ function Navpart() {
             <Nav.Link href="#pricing" className='text-light navlinkslast'>Cinemas</Nav.Link>
             <Nav.Link href="#pricing" className='text-light navlinkslast'>Contact Us</Nav.Link>
           </Nav>
-        
+          </Navbar>
         </Container>
-      </Navbar>
-      <br />
     </div>
   )
 }

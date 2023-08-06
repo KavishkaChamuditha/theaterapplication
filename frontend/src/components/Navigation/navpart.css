@@ -1,16 +1,21 @@
+
 .backgroundclr {
-    margin-top: 20px !important;
-    margin-left: auto !important;
-    margin-right: auto !important;
-    background: rgba(0, 0, 0, 0.81);
+    position: absolute;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+    background: rgba(13, 9, 9, 0.45);
+    border-radius: 16px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(5.4px) !important;
-    -webkit-backdrop-filter: blur(6.4px);
+    backdrop-filter: blur(2.9px);
+    -webkit-backdrop-filter: blur(2.9px);
+    border: 1px solid rgba(13, 9, 9, 0.3);
     height: 70px !important;
-    width: 1200px !important;
+    z-index: 1;
 }
 
-.navname{
+.navname {
     font-family: 'Roboto', sans-serif;
     font-size: 30px;
     font-weight: 500;
@@ -19,29 +24,29 @@
     margin-left: 20px;
 }
 
-.navlinks{
+.navlinks {
     color: #FF9800 !important;
     font-size: 18px;
     margin-left: 20px;
 }
 
-.navlinkslast{
+.navlinkslast {
     font-size: 20px;
     margin-left: 20px;
 }
 
-.navlinksmrgn{
+.navlinksmrgn {
     margin-left: 230px;
 }
 
-.giveawys{
+.giveawys {
     margin-top: 2px;
     height: 50px;
     background: none !important;
     border-color: #FF9800 !important;
 }
 
-.tickets{
+.tickets {
     margin-top: 2px;
     height: 45px;
     margin-left: 20px;

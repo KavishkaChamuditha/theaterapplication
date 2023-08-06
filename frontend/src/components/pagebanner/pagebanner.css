@@ -1,14 +1,23 @@
-body, html {
+body {
     background-color: black !important;
+} 
+.banner-container {
+    position: relative;
 }
 
 .imgstyle {
-    position: fixed !important;
-    bottom: -800px !important;
-    left: 0 !important;
+    position: relative;
     width: 100vw !important;
-    height: 100vh !important;
-    margin-left: -240px;
+    height: calc(100vh - 70px) !important;
     object-fit: cover !important;
-    z-index: -2 !important; /* Push the image below the content */
+    z-index: -1 !important;
 }
+
+/* Add this CSS in your stylesheet or <style> tag */
+.carousel-control-prev,
+.carousel-control-next {
+  display: none;
+}
+
+
+
