@@ -59,3 +59,43 @@ body {
     margin-top: 10px;
 }
 
+.ticketarea{
+    width: 1000px;
+    background-color: aliceblue;
+    height: 80px;
+    position: fixed;
+    margin-left: 20px;
+    margin-top: -130px;
+    /* From https://css.glass */
+    background: rgba(0, 0, 0, 0.49);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5.6px);
+    -webkit-backdrop-filter: blur(5.6px);
+}
+
+.info{
+    font-size: 15px;
+    margin-top: -10px;
+    font-weight: 180px;
+}
+
+.infopart{
+    margin-top: 20px;
+}
+
+.carousel-indicators li {
+    width: 150px !important; 
+    height: 500px !important; 
+    margin-right: 5px; 
+    margin-left: 5px; 
+}
+
+.btntkt{
+    background: none !important;
+    margin-left: 700px;
+    border: 1px solid #FF9800 !important;
+    color: #FF9800 !important;
+    font-weight: bold;
+    margin-top: -110px;
+}
