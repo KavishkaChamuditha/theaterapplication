@@ -15,20 +15,47 @@ body {
 
 /* Add this CSS in your stylesheet or <style> tag */
 .carousel-control-prev,
-.carousel-control-next {
+.carousel-control-next { 
   display: none;
 }
 
 .bannerprtimg{
+    margin-top: -600px !important;
+    position: relative;
     width: 350px;
     margin-bottom: -50px !important;
     margin-right: 800px;
 }
 
 .filmnme{
-    font-size: 50px;
+    margin-top: -380px;
+    font-size: 70px !important;
     font-weight: bold;
     color: white;
+    z-index: 1;
 }
 
+.filmintro{
+    margin-left: 200px;
+}
+
+.filmintrosec{
+    margin-left: -30px !important;
+}
+
+.catgary{
+    font-size: 10px;
+    background: none !important ;
+    border: 1px solid white !important;
+    margin-left: 10px;
+}
+
+.button-container{
+    margin-right: 280px !important;
+}
+
+.hourstxt{
+    margin-left: -50px;
+    margin-top: 10px;
+}
 
