@@ -8,7 +8,7 @@ body {
 .imgstyle {
     position: relative;
     width: 100vw !important;
-    height: calc(100vh - 70px) !important;
+    height: calc(100vh - 10px) !important;
     object-fit: cover !important;
     z-index: -1 !important;
 }
@@ -19,5 +19,16 @@ body {
   display: none;
 }
 
+.bannerprtimg{
+    width: 350px;
+    margin-bottom: -50px !important;
+    margin-right: 800px;
+}
+
+.filmnme{
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+}
 
 
