@@ -174,7 +174,7 @@ swipeable={true}>
                 <path d="M0 0H216L189.5 12.5L216 24H0V0Z" fill="#607D8B"/>
                 <text className='textalign' x="55%" y="50%" dominant-baseline="middle" text-anchor="end" fill="white" font-size="15">
                   13 of September
-                </text>
+                </text> 
               </svg>
               <div className='btnwatchtraier'>
                 <Button className='upcomingbtn'>Watch Trailer</Button>
@@ -230,11 +230,11 @@ swipeable={true}>
 
         <div className="col-lg-3 col-md-4">
           <Card style={{ width: '18rem' }} className='cardspages'>
-            <Card.Img variant="top" src="images/upcoming (4).jpg" />
+            <Card.Img variant="top" src="images/hunting venice.jpg" />
             <Card.Body>
-              <Card.Title className='text-light txtcard'>Interstellar</Card.Title>
+              <Card.Title className='text-light txtcard'>Hunting Venice</Card.Title>
               <Card.Text className='text-light infotitle'>
-                2023 Interstellar
+                2023 Hunting Venice
               </Card.Text>
               <svg className='releasdte' xmlns="http://www.w3.org/2000/svg" width="200" height="34" viewBox="0 0 216 24" fill="none">
                 <path d="M0 0H216L189.5 12.5L216 24H0V0Z" fill="#607D8B"/>
@@ -253,9 +253,9 @@ swipeable={true}>
           <Card style={{ width: '18rem' }} className='cardspages'>
             <Card.Img variant="top" src="images/11.jpg" />
             <Card.Body>
-              <Card.Title className='text-light txtcard'>Interstellar</Card.Title>
+              <Card.Title className='text-light txtcard'>Dracula</Card.Title>
               <Card.Text className='text-light infotitle'>
-                2023 Interstellar
+                2023 The Last Voyage of the Demeter
               </Card.Text>
               <svg className='releasdte' xmlns="http://www.w3.org/2000/svg" width="200" height="34" viewBox="0 0 216 24" fill="none">
                 <path d="M0 0H216L189.5 12.5L216 24H0V0Z" fill="#607D8B"/>
@@ -274,9 +274,9 @@ swipeable={true}>
           <Card style={{ width: '18rem' }} className='cardspages'>
             <Card.Img variant="top" src="images/12.jpg" />
             <Card.Body>
-              <Card.Title className='text-light txtcard'>Rocky & Rani</Card.Title>
+              <Card.Title className='text-light txtcard'>BatMan</Card.Title>
               <Card.Text className='text-light infotitle'>
-                2023 Rocky & Rani
+                2023 BatMan
               </Card.Text>
               <svg className='releasdte' xmlns="http://www.w3.org/2000/svg" width="200" height="34" viewBox="0 0 216 24" fill="none">
                 <path d="M0 0H216L189.5 12.5L216 24H0V0Z" fill="#607D8B"/>

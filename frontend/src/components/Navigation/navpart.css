@@ -46,6 +46,16 @@
     border-color: #FF9800 !important;
 }
 
+.giveawys:hover {
+    background: #FF9800 !important;
+    border-color: #FF9800 !important;
+    color: #000 !important;
+}
+
+.tickets:hover {
+   background: #FF9800 !important;
+}
+
 .tickets {
     margin-top: 2px;
     height: 45px;

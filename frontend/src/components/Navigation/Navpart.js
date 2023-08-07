@@ -17,7 +17,7 @@ function Navpart() {
             <Nav.Link href="#pricing" className='text-light navlinkslast'>Cinemas</Nav.Link>
             <Nav.Link href="#pricing" className='text-light navlinkslast'>Contact Us</Nav.Link>
           </Nav>
-          </Navbar>
+          </Navbar> 
         </Container>
     </div>
   )

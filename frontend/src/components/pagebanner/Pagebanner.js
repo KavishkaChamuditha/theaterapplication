@@ -4,6 +4,8 @@ import './pagebanner.css'
 import Carousel from 'react-bootstrap/Carousel'
 import { Button } from 'react-bootstrap'
 import Pagecards from '../pagecards/Pagecards'
+import Cinemapart from '../Cinemaimage/Cinemapart'
+import Catogarypart from '../Catogary/Catogarypart'
 
 function Pagebanner() {
   return (
@@ -74,7 +76,8 @@ function Pagebanner() {
 </Carousel>
 
 <Pagecards/>
-
+<Cinemapart/>
+<Catogarypart/>
  </div>
 
   )

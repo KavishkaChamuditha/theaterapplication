@@ -53,3 +53,21 @@
 .textalign{
     margin-left: -80px !important;
 }
+
+.ticketsbtn:hover{
+    background: none !important;
+    color: #FF9800 !important;
+    border: #FF9800 1px solid;
+}
+
+.ticketsbtntriler:hover{
+    background-color: #9E9E9E !important;
+    color: #000 !important;
+    border: #000 1px solid;
+}
+
+.upcomingbtn:hover{
+    background-color: #9E9E9E !important;
+    color: #000 !important;
+    border: #000 1px solid;
+}
