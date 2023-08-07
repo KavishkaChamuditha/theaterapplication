@@ -1,0 +1,30 @@
+.footer{
+    height: 390px;
+}
+
+.linkfirst{
+    margin-left: 150px !important;
+}
+
+.footersection{
+    display: flex;
+}
+
+.linkfirst{
+    margin-top: 80px;
+}
+
+.cpysec{
+    height: 50px;
+    display: flex;
+    background: #2A2620;
+}
+
+.copyright{
+    align-items: flex-end;
+}
+
+.icons{
+    margin-top: 90px;
+    margin-left: 400px !important;
+}

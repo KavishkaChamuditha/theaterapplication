@@ -6,6 +6,7 @@ import { Button } from 'react-bootstrap'
 import Pagecards from '../pagecards/Pagecards'
 import Cinemapart from '../Cinemaimage/Cinemapart'
 import Catogarypart from '../Catogary/Catogarypart'
+import Footersec from '../Footersection/Footersec'
 
 function Pagebanner() {
   return (
@@ -78,6 +79,7 @@ function Pagebanner() {
 <Pagecards/>
 <Cinemapart/>
 <Catogarypart/>
+<Footersec/>
  </div>
 
   )
